@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #23252C;
+    height: 100vh;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
+.container{
+    background: #1A1B21;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    border-radius: 10px;
+}
+.info-sec{
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 13px;
+}
+img{
+    width: 100%;
+    height: 250px;
+}
+.text{
+    margin-top: 17px;
+}
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+}
+.role{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 21px;
+    text-align: center;
+    color: #F3BF99;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.web{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 32px;
+    color: #F5F5F5;
+    text-align: center;
+}
+.btn-grp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+.btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    width: 35%;
+    height: 2.3em;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.email-btn{
+    background: #FFFFFF;
+    color: #374151;
+}
+.linkedin-btn{
+    background: #5093E2;
+    color: #FFFFFF;
+}
+.about{
+    margin: 10px 0;
+}
+h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+.small-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.space{
+    padding: 0 3em;
+}
+.footer{
+    display: flex;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+    padding: .8em 0;
+    margin-top: 18px;
+}
+.social{
+    padding:  6px;
+    background: #918E9B;
+    color: #161619;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 4px;
+}
